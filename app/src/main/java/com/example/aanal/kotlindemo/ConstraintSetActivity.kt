@@ -11,7 +11,7 @@ import android.view.View
 import android.widget.ImageView
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity(), View.OnClickListener {
+class ConstraintSetActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
 
     }
