@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     @TargetApi(Build.VERSION_CODES.KITKAT)
-    fun addAnimationOperations() {
+    private fun addAnimationOperations() {
         var set = false
         val constraint1 = ConstraintSet()
         constraint1.clone(root)
