@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val constraint1 = ConstraintSet()
         constraint1.clone(root)
         val constraint2 = ConstraintSet()
-        constraint2.clone(this, R.layout.activity_main_new)
+        constraint2.clone(this, R.layout.activity_main_1)
         findViewById<ImageView>(R.id.imageView).setOnClickListener{
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
                 val autoTransition = AutoTransition()
